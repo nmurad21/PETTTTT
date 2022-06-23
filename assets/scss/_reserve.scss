@@ -1,0 +1,23 @@
+#reserve{
+    display: flex;
+    align-items: center;
+    .reserve-row{
+        align-items: center;
+        .reserve-input{
+            background-color: chocolate;
+            padding: 80px 55px;
+            text-align: center;
+            input{
+                padding: 10px 35px;
+            }
+            .button{
+                button{
+                    color: white;
+                    background-color: black;
+                    padding: 15px 125px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
